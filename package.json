@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch --env-file=.env server"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
